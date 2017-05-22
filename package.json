@@ -1,0 +1,23 @@
+{
+  "name": "blog-js",
+  "version": "0.1.0",
+  "description": "Modern blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.lohika.com:apekarska/blog-js.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Anna Pekarska",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-sass": "^4.5.3"
+  }
+}
