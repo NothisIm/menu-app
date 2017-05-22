@@ -1,6 +1,9 @@
 const express = require('express')
+const watch = require('node-watch')
 const app = express()
 const port = 3000
+
+watch('./', { recursive: true}, console.log)
 
 app.use(express.static('static'))
 
