@@ -2,15 +2,15 @@
 =================
 
 What?
-=====
+-----
 Yet another blog application.
 
 Why?
-====
+----
 To provide a backend developer with a playground for frontend work.
 
 How?
-====
+----
 To run the application:
 
 1. Download and install Node.js https://nodejs.org/
