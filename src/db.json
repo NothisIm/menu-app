@@ -1,0 +1,55 @@
+{
+    "ingredients": [
+        {
+            "id": 1,
+            "name": "Milk"
+        },
+        {
+            "id": 2,
+            "name": "Eggs"
+        }
+    ],
+    "warehouse": [
+        {
+            "id": 1,
+            "quantity": 900,
+            "units": 1
+        },
+        {
+            "id": 2,
+            "quantity": 7,
+            "units": 3
+        }
+    ],
+    "cookbook": [
+        {
+            "id": 1,
+            "name": "Omlet",
+            "ingredients": [
+                {"id": 1, "quantity": 150, "units": 1},
+                {"id": 2, "quantity": 3, "units": 3}
+            ]
+        }
+
+    ],
+    "menu": [
+
+    ],
+    "units": [
+        {
+            "id": 1,
+            "name": "grams",
+            "symbol": "g"
+        },
+        {
+            "id": 2,
+            "name": "milliliters",
+            "symbol": "ml"
+        },
+        {
+            "id": 3,
+            "name": "items",
+            "symbol": "items"
+        }
+    ]
+}
