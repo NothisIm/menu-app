@@ -1,12 +1,19 @@
 const express = require('express');
 const watch = require('node-watch');
 const ejs = require('ejs');
+const sass = require('node-sass');
+
 const app = express();
 const port = 3000;
 
 watch('./', { recursive: true}, console.log);
 
-app.use(express.static('../sources'));
+sass.renderSync({
+    file: 'src/sources/scss/index.scss',
+    outFile: 'resources/index.css'
+});
+
+app.use(express.static('resources'));
 app.engine('html', ejs.renderFile);
 app.set('views', 'src/views');
 
